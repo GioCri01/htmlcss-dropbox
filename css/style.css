@@ -1,0 +1,144 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*utility*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1500px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+
+    background-color: rgb(0, 110, 255);
+    color: white;
+    padding: 5px 20px;
+    
+    
+}
+
+/*general*/
+
+
+header{
+    position: fixed;
+    z-index: 999;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    color: black;
+    background-color: rgb(199, 199, 199);
+    
+    
+}
+
+
+.logo-section ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.logo-section ul li a img{
+    vertical-align: middle;
+}
+
+
+.button-section ul li {
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+/*jumbotron*/
+
+.jumbotron{
+    padding-top: 80px;
+    width: 100%;
+    z-index: 998;
+    background-color: rgba(120, 163, 192, 0.993);
+    
+    
+     
+   
+}
+
+.jumbotron-content{
+    padding: 50px 0;
+}
+
+.jumbotron h1{
+    font-size: 90px;
+    margin-bottom: 80px;
+    
+    
+}
+
+.jumbotron-col-sx{
+    width: 39%;
+    margin-right: 1%;
+}
+
+.jumbotron-col-sx p{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    
+}
+
+
+
+
+
+.jumbotron-col-dx{
+    position: relative;
+    width: 59%;
+    margin-left: 1%;
+}
+
+.jumbotron-col-dx img{
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left:0;
+   
+   
+}
+
+ .fa-arrow-down-long{
+     font-size: 50px;
+ }
