@@ -87,6 +87,7 @@ header{
 
 .jumbotron{
     padding-top: 80px;
+    margin-bottom: 250px;
     width: 100%;
     z-index: 998;
     background-color: rgba(120, 163, 192, 0.993);
@@ -142,3 +143,37 @@ header{
  .fa-arrow-down-long{
      font-size: 50px;
  }
+
+
+ /*main*/
+ .title-section h2{
+     font-size: 50px;
+
+ }
+
+ .colum-section{
+     margin-top: 50px;
+ }
+
+.colum-1,.colum-2,.colum-3{
+    height:800px;
+    width:30% ;
+    margin-left: 3%;
+    padding: 20px 10px;
+    
+    
+    border: 1px solid black;
+    background-color: brown;
+    
+    
+}
+
+.footer-section{
+    margin-top: 50px ;
+    height: 200px;
+    background-color: brown;
+}
+    
+
+
+
