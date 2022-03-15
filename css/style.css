@@ -11,6 +11,8 @@ h3{
     padding: 20px 0;
     
 }
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -71,7 +73,7 @@ a{
 }
 
 
-/*general*/
+/*menu*/
 
 
 header{
@@ -92,14 +94,22 @@ header{
 
 .logo-section ul li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .logo-section ul li a img{
     vertical-align: middle;
 }
 
+ header li:hover{
+border-bottom: 2px solid rgb(0, 0, 0);
+    
+}
+
+
+
 .button-section{
+    position: relative;
     text-align: right;
 }
 .button-section ul li {
@@ -107,6 +117,38 @@ header{
     display: inline-block;
     padding: 0 20px;
     
+}
+
+header .button:hover{
+    background-color: rgb(252, 252, 252);
+    color: black;
+}
+
+.row{
+    position: absolute;
+    top: 98%;
+    left: 44%;
+    background-color: rgb(255, 254, 254);
+    display:none;
+    
+    
+    
+    
+}
+
+.row ul li{
+    display: block;
+    
+}
+
+
+
+
+
+li:hover .row{
+    display: block;
+    background-color: rgb(211, 210, 210);
+    border-top: 1px solid black;
 }
 
 /*jumbotron*/
@@ -168,6 +210,12 @@ header{
 
  .fa-arrow-down-long{
      font-size: 50px;
+ }
+
+
+ .jumbotron .button:hover{
+     background-color: white;
+     color: black;
  }
 
 
@@ -266,6 +314,11 @@ header{
     width: 20%;
 
 }
+
+.plan-section .button:hover{
+    background-color: rgb(196, 196, 196);
+    color: black;
+}
 /*partner section*/
 
 .partner-section{
@@ -334,26 +387,27 @@ header{
 }
 
 .sponsor-top{
-    width: 100%;
+    width: 100vw;
 }
 
 .sponsor .sponsor-sx , .sponsor-dx{
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height:30vw;
     
     background-color: red;
 }
 .sponsor .sponsor-text{
-    width: calc(100% - 800px);
-    height: 400px;
+    width: calc(100% - 60vw);
+    height: 30vw;
     background-color: rgb(219, 219, 223);
 }
 
 .sponsor-top .image{
-    padding: 20px;
-    width: 200px;
-    height:200px;
-    text-align: center;
+    padding: 40px;
+    line-height: 15vw;
+    width: 15vw;
+    height:15vw;
+    
     color: white;
     
     
@@ -361,13 +415,15 @@ header{
 
 .sponsor-top img{
     width: 100%;
-    height: 100%;
+    color: white
+    
     ;
 }
 
 .sponsor-text{
     padding: 40px;
     overflow-y: scroll;
+    
 }
 
 .sponsor-text .logo{
@@ -396,13 +452,18 @@ header{
 }
 
 .sponsor-footer-button{
-    text-align: center;
+    text-align: right;
     
 }
 
 .sponsor-footer-button .button{
     background-color: white;
     color: black;
+}
+
+.sponsor-footer-button .button:hover{
+    background-color: rgb(0, 102, 255);
+    color: white;
 }
 
 .faq{margin-bottom: 150px;}
