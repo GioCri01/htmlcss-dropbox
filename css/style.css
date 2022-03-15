@@ -453,8 +453,38 @@ header{
   .faq-box:hover .text{
       display: block;
   }
-        
+        /*footer*/
+
+
+  footer{
+      background-color: black;
+       
+     
+  }
+
+  footer .footer-menu{
+      margin-bottom: 200px;
+  }
+
+  footer ul li a {
+      color: white;
+      
+  }
+
+  footer ul li{
+      margin: 20px;
+  }
     
+  footer .foot-col{
+      width: 20%;
+  }
+
+
+  footer .ita-icon{
+      color: rgb(182, 180, 180);
+      padding: 50px 0;
+      border-top: 1px solid rgb(255, 253, 253);
+  }
 
 
 
