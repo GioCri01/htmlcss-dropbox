@@ -193,6 +193,7 @@ header{
  
 
 .colum-1,.colum-2,.colum-3{
+    height: 900px;
      width:30% ;
     border: 1px solid rgb(216, 215, 215);
 }
@@ -329,6 +330,7 @@ header{
 /*sponsor*/
 .sponsor{
     background-color:rgba(120, 163, 192, 0.993) ;
+    margin-bottom: 150px;
 }
 
 .sponsor-top{
@@ -352,6 +354,7 @@ header{
     width: 200px;
     height:200px;
     text-align: center;
+    color: white;
     
     
 }
@@ -359,11 +362,12 @@ header{
 .sponsor-top img{
     width: 100%;
     height: 100%;
+    ;
 }
 
 .sponsor-text{
     padding: 40px;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .sponsor-text .logo{
@@ -376,16 +380,87 @@ header{
     text-align: justify;
 }
 
-.sponsor-bottom-content{
-    padding: 50px;
+.sponsor-bottom{
+    padding: 100px 0 ;
+}
+
+
+
+.sponsor-footer-section-title , .sponsor-footer-button{
+    width: 50%;
+}
+
+.sponsor-footer-section-title h2{
+    font-size: 40px;
+    color:rgb(128, 3, 3);
+}
+
+.sponsor-footer-button{
+    text-align: center;
     
 }
 
-.sponsor-bottom-content span{
-    text-align: right;
+.sponsor-footer-button .button{
+    background-color: white;
+    color: black;
 }
 
+.faq{margin-bottom: 150px;}
 
+.faq-content h3{
+    border-bottom: 1px solid grey;
+}
+.faq-box{
+    border-bottom: 1px solid grey;
+    padding: 30px 0;
+    position: relative;
+    
+    
+}
+
+.faq-box .text{
+    padding: 20px;
+    color: grey;
+    display: none;
+}
+
+.chevron {
+    position: absolute;
+    top: 20px;
+    right: 2%;
+    cursor: pointer;
+}    
+    
+.chevron-up{
+    position: absolute;
+    top: 20px;
+    right: 2%;
+    display: none;
+    
+    
+    
+
+  } 
+
+  .faq-box:hover .chevron{
+      display: none;
+  }
+
+  .faq-box:hover .chevron-up{
+      display: block;
+  }
+
+  .faq-box:hover .text{
+      display: block;
+  }
+        
+    
+
+
+
+
+
+  
 
 
     
